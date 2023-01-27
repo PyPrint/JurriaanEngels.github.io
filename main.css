@@ -57,6 +57,11 @@ section {
     transition-delay: 1s;
     transform-origin: 0 0;
     transform: rotate(-90deg);
+    opacity: 0;
+}
+
+.div_contact[data-scroll="in"] {
+    opacity: 1;
 }
 
 .div_social {
