@@ -264,6 +264,19 @@ section_2 {
     background: #212121 ;
 }
 
+.div_work_experience_element2 {
+    position: relative;
+    top: 50%;
+    left: 10%;
+    height: 220px;
+    width: 480px;
+    margin: 10px;
+    padding: 40px;
+    border: 20px;
+    font-size: 10px;
+    background: #212121 ;
+}
+
 work_experience_p {
     color: white;
     font-size: 20px;
