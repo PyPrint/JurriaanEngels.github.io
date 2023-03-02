@@ -1,3 +1,18 @@
+Project with:
+
+- Data cleaning/preprocessing
+- Webscraping
+- Interactive Dashboard
+- SQL
+- Machine Learning
+- Deep Learning
+- Generative AI
+- Regression/Classification/Clustering
+- HTML
+- Folium Maps
+- Visualisations
+- Tableau/PowerBI
+
 1. Predicting sporting tournaments using (a) sport data (b) weather data (position of the sun, humidity, temperature, climate, air-movement etc.) (c) team consistency/synergy (d) opzet etc. 
 
 2. Visualizing deaths Ukraine war
