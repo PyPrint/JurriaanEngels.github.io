@@ -1,0 +1,149 @@
+html, body {
+    background-color: #181818;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --text-color-1:grey;
+    --text-color-2:lightgrey;
+    --text-color-3:white;
+    --background-color-1:#181818;
+    --background-color-2:#212121;
+
+}
+
+a {
+    font-size: 3vmin;
+    color: var(--text-color-2);
+}
+
+p {
+    font-size: 3vmin;
+    color: var(--text-color-1);
+}
+
+h1 {
+    font-size: 4vmin;
+    color: var(--text-color-2);
+}
+
+.color-1 {
+    color: var(--text-color-2);
+}
+
+/*  display: flex;
+    justify-content: center; horizontally centered
+    align-content: center;  vertically centered
+    
+    
+    display: inline-block; will adjust the div size to textsize
+*/
+    
+
+/* ====== SOCIAL CONTAINER ====== */
+
+.social-container {
+    width: 10%;
+    height: 100vh;
+    position: relative;
+    float: left;
+    border: 3px solid red;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.social-container-email {
+    width: 600%;
+    height: 4vmin;
+    top: 40vmin;
+    left: 0%;
+    position: relative;
+    border: 3px solid red;
+    transform: rotate(-90deg);
+    color: var(--text-color-1);
+    display: flex;
+    text-align: center;
+}
+
+.icons-container {
+    width: 10vmin;
+    height: 50%;
+    top: 65vmin;
+    position: fixed;
+    margin: 3%;
+    border: 3px solid yellow;
+    
+    justify-content: center;
+}
+
+.icons {
+    width: 93%;
+    aspect-ratio: 1 / 1;
+    float: left;
+    border: 3px solid blue;
+
+    display: flex;
+    align-content: center;
+}
+
+/* INTRODUCTION CONTAINER */
+
+.introduction-container {
+    width: 60%;
+    height: 5vm;
+    right: 20%;
+    top: 20vmin;
+    position: fixed;
+    border: 3px solid red;
+    text-align: left;
+    
+    justify-content: center;
+}
+
+.name {
+    width: 100%;
+    height: 10%;
+    float: left;
+    border: 3px solid red;
+    text-align: left;
+
+    display: flex;
+    align-content: center;
+}
+
+.introduction {
+    width: 100%;
+    height: 50%;
+    float: left;
+    border: 3px solid red;
+    text-align: left;
+
+}
+
+/* TABS BAR */
+
+.tabs-container {
+    width: 100%;
+    height: 5vm;
+    position: fixed;
+    border: 3px solid red;
+}
+
+.tabs {
+    padding: 0 2%;
+    height: 94%;
+    float: right;
+    right: 5%;
+    position: relative;
+    border: 3px solid yellow;
+    text-align: center;
+    display: inline-block;
+    align-content: center;
+}
+
+.tabs:hover {
+    background-color: var(--background-color-2);
+}
