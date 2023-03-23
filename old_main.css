@@ -1,0 +1,321 @@
+body {
+    background-color: #181818;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+[data-scroll] {
+    transition: all 2s;
+}
+
+[data-scroll="in"] {
+    opacity: 1;
+}
+
+[data-scroll="out"] {
+    opacity: 0;
+}
+
+
+
+
+
+
+.clickable {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;     
+    z-index: 1;
+  }
+
+/*SECTION_1*/
+
+section {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    color: #181818;
+}
+
+/*DIV SOCIAL*/
+
+.social-container {
+    border: 3px solid red;
+    width: 10%;
+}
+
+.div_contact {
+    position: absolute;
+    left: 35px;
+    top: 420px;
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    background: #181818;
+    transition-delay: 1s;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    opacity: 0;
+}
+
+.div_contact[data-scroll="in"] {
+    opacity: 1;
+}
+
+.div_social {
+    position: absolute;
+    left: 0px;
+    top: 350px;
+    margin: 10px;
+    padding: 0px;
+    font-size: 10px;
+    height: 1000px;
+    width: 100px;
+    background: #181818;
+    opacity: 0;
+    transition-delay: 1s;
+}
+
+.div_social[data-scroll="in"] {
+    opacity: 1;
+}
+
+.div_social_element {
+    position: relative;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    top: 10%;
+    left: 14%;
+    background: #181818;
+    border-radius: 50%;
+    border:2px solid white;
+}
+
+
+.div_social_element:hover {
+    position: relative;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    top: 10%;
+    left: 14%;
+    background: #181818;
+    border-radius: 50%;
+    border:2px solid white;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    transition: 0.1s;
+}
+
+
+.div_social_element_img {
+    position: relative;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    top: 10%;
+    left: 14%;
+    background: #181818;
+    border-radius: 50%;
+    border:2px solid white;
+}
+
+.div_social_vertical_line {
+    position: relative;
+    margin: 10px;
+    height: 4000px;
+    width: 2px;
+    top: 10%;
+    left: 39%;
+    background: white;
+}
+
+
+.img_social {
+    border-radius: 50%;
+    transition: 1s;
+  }
+.img_social_face {
+    border-radius: 50%;
+    transition: 1s;
+  }
+
+.img_social:hover {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    }
+
+/*DIV TABS*/
+
+.div_tabs {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    height: 100px;
+    width: 100%;
+    background: #181818;
+    opacity: 0;
+    transition-delay: 2s;
+}
+
+.div_tabs[data-scroll="in"] {
+    opacity: 1;
+}
+
+.div_tabs_element {
+    position: relative;
+    float:right;
+    margin: 4px;
+    height: 50px;
+    width: 100px;
+    top: 15%;
+    right: 2%;
+    background: #181818;
+    border:2px solid #181818;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_tabs_element:hover {
+    text-decoration: underline;
+}
+
+.div_introduction {
+    position: absolute;
+    left: 14%;
+    top: 200px;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    width: 100%;
+    background: #181818;
+    opacity: 0;
+    transition-delay: 3s;
+}
+
+.div_introduction[data-scroll="in"] {
+    opacity: 1;
+}
+
+intro_p {
+    font-size: 40px;
+    color: white;
+}
+
+intro_p_1 {
+    font-size: 20px;
+    color: gray;
+}
+a.hrefinsen:link {
+    color: lightgray;
+    text-decoration: none;
+}
+a.hrefinsen:visited {
+    color: lightgray;
+    text-decoration: none;
+}
+a.hrefinsen:hover {
+    text-decoration: underline;
+}
+
+/*SECTION_2*/
+
+section_2 {
+    height: 100vh;
+    width: 100%;
+    padding: 6em;
+    box-sizing: border-box;
+    color: #181818;
+}
+
+.div_work_experience_title{
+    position: relative;
+    top: 50%;
+    left: 10%;
+    height: 40px;
+    width: 180px;
+    margin: 10px;
+    padding: 0px;
+    font-size: 10px;
+    background: #181818;
+    color: white;
+}
+
+.div_work_experience_element {
+    position: relative;
+    top: 50%;
+    left: 10%;
+    height: 150px;
+    width: 480px;
+    margin: 10px;
+    padding: 40px;
+    border: 20px;
+    font-size: 10px;
+    background: #212121 ;
+}
+
+.div_work_experience_element2 {
+    position: relative;
+    top: 50%;
+    left: 10%;
+    height: 220px;
+    width: 480px;
+    margin: 10px;
+    padding: 40px;
+    border: 20px;
+    font-size: 10px;
+    background: #212121 ;
+}
+
+work_experience_p {
+    color: white;
+    font-size: 20px;
+}
+work_experience_p_title {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    clear:both;
+    overflow: hidden;
+}
+work_experience_p_company {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    clear:both;
+    overflow: hidden;
+}
+
+work_experience_p_description {
+    position: relative;
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+    clear:both;
+    overflow: hidden;
+}
+work_experience_p_duration {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+    clear:both;
+    overflow: hidden;
+}
